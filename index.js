@@ -12,12 +12,12 @@ const menu = require("./lib/menu.js");
 const donate = require("./lib/donate.js");
 const info = require("./lib/info.js");
 //
-const BotName = 'ST4RZ BOT 🤖'; // Nama Bot Whatsapp
-const instagramlu = 'https://instagram.com/bintang_nur_pradana'; // Nama Instagramlu cok
-const whatsapplu = '0819-4698-3575'; // Nomor whatsapplu cok
+const BotName = 'Yunus 🤖'; // Nama Bot Whatsapp
+const instagramlu = 'https://instagram.com/myunussandi'; // Nama Instagramlu cok
+const whatsapplu = '0857-6074-1228'; // Nomor whatsapplu cok
 const kapanbotaktif = '24 Jam'; // Kapan bot lu aktif
-const grupch1 = 'https://chat.whatsapp.com/FsAlnxqz6y2BhCQi5ayCLG'; // OFFICIAL GRUP LU 1
-const grupch2 = 'https://chat.whatsapp.com/KLW3UlFfeaH36Ucm5zRfCz'; // OFFICIAL GRUP LU 2
+const grupch1 = 'https://chat.whatsapp.com/KWLPAkYGiTNIHPrw5qyxCA'; // OFFICIAL GRUP LU 1
+const grupch2 = 'belum ada'; // OFFICIAL GRUP LU 2
 //
 const
 {
@@ -63,7 +63,7 @@ fs.existsSync('./session.json') && conn.loadAuthInfo('./session.json')
 //conn.connectOptions.agent = ProxyAgent ('http://1.0.180.120:8080')
 conn.connect();
 
-conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @bintang_nur_pradana`))
+conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @myunussandi`))
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
